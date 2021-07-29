@@ -10,5 +10,26 @@
     "post": {
       "belongsTo": "Post"
     }
+  },
+  "Order" :{
+    "date": {
+      "min": "2010-01-01T00:00:00Z",
+      "max": "2020-12-31T23:59:59Z"
+    },
+    "orderId": { "int": { "min": 1000, "max": 1000000 } },
+    "clientId": { "int": { "min": 10000, "max": 1000000 } },
+    "store": { "string": {}},
+    "initialValue": { "int": { "min": 1, "max": 200 } },
+    "deliveredValue": { "int": { "min": 1, "max": 200 } },
+    "inFull": { "int": { "min": 0, "max": 100 } },
+    "leadTime": {
+      "min": "2010-01-01T00:00:00Z",
+      "max": "2020-12-31T23:59:59Z"
+    },
+    "RejectionCause": "-",
+    "Invoice": "-",
+    "licensePLate": { "string": {}},
+    "status": { "string": {}},
+    "comment": { "string": {}}
   }
 }
