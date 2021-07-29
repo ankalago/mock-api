@@ -31,7 +31,18 @@
       ]
     },
     "licensePLate": { "string": {} },
-    "status": { "string": {} },
-    "comment": { "string": {} }
+    "status": {
+      "string": [
+        "Entregado"
+      ]
+    },
+    "comment": {
+      "string": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Risus at ultrices mi tempus imperdiet nulla.",
+        "Donec et odio pellentesque diam volutpat commodo sed.",
+        "Aliquet nec ullamcorper sit amet. Velit sed ullamcorper morbi tincidunt ornare massa eget."
+      ]
+    }
   }
 }
