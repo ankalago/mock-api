@@ -12,24 +12,18 @@
     }
   },
   "Order" :{
-    "date": {
-      "min": "2010-01-01T00:00:00Z",
-      "max": "2020-12-31T23:59:59Z"
-    },
+    "date": { "int": { "min": 1627515618, "max": 1627574837 } },
     "orderId": { "int": { "min": 1000, "max": 1000000 } },
     "clientId": { "int": { "min": 10000, "max": 1000000 } },
-    "store": { "string": {}},
+    "store": { "string": {} },
     "initialValue": { "int": { "min": 1, "max": 200 } },
     "deliveredValue": { "int": { "min": 1, "max": 200 } },
     "inFull": { "int": { "min": 0, "max": 100 } },
-    "leadTime": {
-      "min": "2010-01-01T00:00:00Z",
-      "max": "2020-12-31T23:59:59Z"
-    },
+    "leadTime": { "int": { "min": 1627515618, "max": 1627574837 } },
     "RejectionCause": "-",
     "Invoice": "-",
-    "licensePLate": { "string": {}},
-    "status": { "string": {}},
-    "comment": { "string": {}}
+    "licensePLate": { "string": {} },
+    "status": { "string": {} },
+    "comment": { "string": {} }
   }
 }
