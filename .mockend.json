@@ -11,6 +11,31 @@
       "belongsTo": "Post"
     }
   },
+  "Product": {
+    "productId": { "int": { "min": 100000, "max": 10000000 } },
+    "description": {
+      "string": [
+        "Botana - MAFER mafer - Bag 1g",
+        "Osos Chilim 100gr - Chilim 1g",
+        "Botana - MAFER mafer - Bag 1g",
+        "Fritos Sal 57g - Sab Fritos 1g"
+      ]
+    },
+    "orderedQuantity": { "int": { "min": 1, "max": 60 } },
+    "deliveredQuantity": { "int": { "min": 1, "max": 60 } },
+    "total": { "int": { "min": 1, "max": 60 } }
+  },
+  "Detail": {
+    "clientId": { "int": { "min": 10000, "max": 1000000 } },
+    "address": "Delivery by Rappi Inc.",
+    "date": { "int": { "min": 1627515618, "max": 1627574837 } },
+    "inFull": { "int": { "min": 0, "max": 100 } },
+    "deliveryIn": { "int": { "min": 1, "max": 60 } },
+    "total": { "int": { "min": 1, "max": 100 } },
+    "list": {
+      "hasMany": "Product"
+    }
+  },
   "Timeline": {
     "date": { "int": { "min": 1627515618, "max": 1627574837 } },
     "deliveredTime": { "int": { "min": 1627515618, "max": 1627574837 } },
