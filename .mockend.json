@@ -27,7 +27,7 @@
   },
   "Detail": {
     "clientId": { "int": { "min": 10000, "max": 1000000 } },
-    "address": "Delivery by Rappi Inc.",
+    "address": { "string": {} },
     "date": { "int": { "min": 1627515618, "max": 1627574837 } },
     "inFull": { "int": { "min": 0, "max": 100 } },
     "deliveryIn": { "int": { "min": 1, "max": 60 } },
