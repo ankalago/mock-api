@@ -11,6 +11,18 @@
       "belongsTo": "Post"
     }
   },
+  "Timeline": {
+    "date": { "int": { "min": 1627515618, "max": 1627574837 } },
+    "deliveredTime": { "int": { "min": 1627515618, "max": 1627574837 } },
+    "detail": {
+      "string": [
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "Risus at ultrices mi tempus imperdiet nulla.",
+        "Donec et odio pellentesque diam volutpat commodo sed.",
+        "Aliquet nec ullamcorper sit amet. Velit sed ullamcorper morbi tincidunt ornare massa eget."
+      ]
+    }
+  },
   "Order" :{
     "date": { "int": { "min": 1627515618, "max": 1627574837 } },
     "orderId": { "int": { "min": 1000, "max": 1000000 } },
